@@ -7,6 +7,7 @@ app.use(express.json());
 
 // Simple GET route
 app.get("/", (req, res) => {
+  console.log("Request received");
   res.json({ message: "Welcome to the server v2!" });
 });
 

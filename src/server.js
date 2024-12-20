@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Simple GET route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to the server!" });
+  res.json({ message: "Welcome to the server v2!" });
 });
 
 // Example GET route with parameter
